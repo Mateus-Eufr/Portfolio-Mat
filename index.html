@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="Section-1-bg" >
+     <aside>
+        <div class="icon-menu" onclick="abrirmenu()">
+            <img src="Imagens/menu-aberto.png">
+        </div><!--icon-menu-->
+
+        <div id="barra-menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contatos.html">Contato</a></li>
+                <li><a href="sobre mim.html">Sobre mim</a></li>
+            </ul>
+
+            <div class="C-icon">
+                <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span>
+                <span class="icon"><ion-icon name="logo-twitter"></ion-icon></span>
+
+            </div><!--icon-->
+        </div><!--barra-menu-->
+     </aside>
+
+    
+        <div class="main-title">
+            <h1>Mateus Eufrásio </h1>
+            <h2>Sou desenvolvedor Web</h2>
+            <h5>Trabalho como freelancer</h5>
+            <a href="sobre mim.html"><button class="btn">Saber mais</button></a>
+
+            <div class="Numeros">
+                <div class="title">
+                    <h3>400</h3>
+                    <p>Seguidores nas redes sociais</p>
+                </div><!--title-->
+
+                <div class="title">
+                    <h3>6</h3>
+                    <p>Cursos realizados</p>
+                </div><!--title-->
+
+                <div class="title">
+                    <h3>3</h3>
+                    <p>Projetos desenvolvidos em sala de aula</p>
+                </div><!--title-->
+
+            </div><!--Numeros-->
+        </div><!--main-title-->
+    </div><!--Section-1-bg-->
+
+
+    <section class="C-sobre" data-aos="fade-up">
+        <div class="image">
+            <img src="Imagens/foto.jpg">
+        </div><!--image-->
+
+        <div class="Sobre-mim">
+            <h1>Sobre mim</h1>
+            <h4>Desenvolvedor & <span>desing</span></h4>
+            <p> Meu nome é Mateus Eufrásio, moro no municipio de Juru no
+                <br>estado da Paraíba. Sou estudante do curso Tecnico em Informática,
+                <br>fornecido no Instituto Federal da Paraíba- Campus Princesa Isabel(IFPB-PI).
+                <br>Neste curso eu aprendi um pouco de programação em Phyton e Java, mas o que eu
+                <br>realmente mais aprendi foi a parte de Desenvolvimento web, e por isso quero 
+                <br>ter uma especialização nesta área. 
+            </p>
+            <a href="projetos.html"><button class="btn">Saber mais</button></a>
+        </div><!--Sobre-mim-->
+    </section><!---C-sobre-->
+
+    <section class="Container" data-aos="fade-up">
+        <h1>Serviços</h1>
+        <p>Meu serviços pra você faça sua oferta e me mande uma mensagem </p>
+        <p>Nossos serviços pra você</p>
+        <div class="C-card" data-aos="fade-up">
+            <div class="Card">
+                <img src="Imagens/phone.jpeg" alt="phone">
+                <h3>Desenvolvimento Mobile</h3>
+                <h4>Faço Apps simples por  
+                    <br>meio do Android Studio<br> 
+                    ou por meio da linguagem python.
+                </h4>
+            </div><!--Card-->
+
+            <div class="Card">
+                <img src="Imagens/desktop.png" alt="desktop">
+                <h3>Desenvolvimento Web</h3>
+                <h4> Posso fazer sites e paginas web,
+                    <br> utilizando HTML e CSS e um 
+                    <br> pouco de Javascript. 
+                </h4>
+            </div><!--Card-->
+
+            <div class="Card">
+                <img src="Imagens/grafico.png" alt="grafico">
+                <h3>Conhecimento Financeiros</h3>
+                <h4>Tenho conhecimento do setor de<br>
+                    investimentos, por meio de cursos<br>
+                    disponibilizados na internet,<br>
+                    e por experência prática.
+                </h4>
+            </div><!--Card-->
+        </div><!--C-card-->
+
+        <div class="C-card-2" data-aos="fade-up">
+
+            <div class="Card">
+                <img src="Imagens/computador.png" alt="computador">
+                <h3>Desenvolvimento Web</h3>
+                <h4>Faço designs para páginas 
+                    <br> web com o Figma. 
+                </h4>
+            </div><!--Card-->
+
+            <div class="Card">
+                <img src="Imagens/camera.png" alt="camera">
+                <h3>Conhecimento Financeiros</h3>
+                <h4>Sei administrar bem finanças<br>
+                e tenho conhecimento básico<br>
+                em matemática financeira.</h4>
+            </div><!--Card-->
+
+            <div class="Card">
+                <img src="Imagens/paisagem.png" alt="paisagem">
+                <h3>Desenvolvimento Mobile</h3>
+                <h4>Posso fazer prótotipos e desings para  
+                    <br> aplicativos Mobile por meio  
+                    <br> do Figma.</h4>
+            </div><!--Card-->
+        </div><!--C-card-2-->
+    </section><!--conatiner-->
+    <section class="C-projetos" data-aos="fade-up">
+        <h1>Meus projetos e cursos</h1>
+        <p>Projetos feitos durante o curso tecnico em informática </p>
+        <p>Juntamente com alguns cursos realizados!</p>
+        <div class="img-projetos" data-aos="fade-up">
+            <img src="Imagens/projeto-1.png" alt="projeto">
+            <img src="Imagens/projeto-2.jpg" alt="projeto">
+            <img src="Imagens/projeto-3.png" alt="projeto">
+            <img src="Imagens/POO.png" alt="projeto">
+            <img src="Imagens/fundamentos.png" alt="projeto">
+            <img src="Imagens/curso4.png">
+            <img src="Imagens/curso3.png">
+            <img src="Imagens/curso2.png">
+            <img src="Imagens/curso1.png">
+        </div><!--img-projetos-->
+    </section><!--C-projetos-->
+
+    <section class="C-rodapé" >
+        <h1>Nos envie uma mensagem para a gente fechar o projeto</h1>
+       <form>
+        <input type="email" name="email" id="email" placeholder="Envie uma mensagem">
+        <input type="submit" name="submit" value="Enviar">
+       </form>
+    </section><!--C-rodapé-->
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+</body>
+</html>
