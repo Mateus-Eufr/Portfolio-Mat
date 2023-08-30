@@ -159,33 +159,6 @@ aside{
   
 }
 
-.Numeros{
-    display: flex;
-    margin-top: 35px;
-    color: #fff;
-    gap: 40px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.title h3{
-    font-size: 35px;
-    margin-top: 15px;
-    font-family: "Inter";
-    font-weight: bold;
-}
-
-.title p{
-    font-family: "Inter";
-    font-weight: normal;
-}
-
-.title:hover{
-    transition: 1.2;
-    transform: scale(1.1);
-   
-}
-
 @media only screen and (max-width: 414px)  {
 
     /*====================Inicio====================*/
