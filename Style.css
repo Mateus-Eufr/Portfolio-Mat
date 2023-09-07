@@ -159,6 +159,35 @@ aside{
   
 }
 
+.main-title h4{
+    position: absolute;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Hanuman";
+    letter-spacing: 2px;
+    font-weight: 200;
+    top: 520px;
+}
+
+#pro{
+    position: absolute;
+    top: 520px;
+    left: 350px;
+    gap: 50px;
+    overflow: hidden;
+}
+
+#pro span{
+    color: #FBF7F7;
+}
+
+#pro span:hover{
+    transition: 0.2s;
+    transform: 0.5;
+    color: #EF0453;
+}
+
+
 @media only screen and (max-width: 414px)  {
 
     /*====================Inicio====================*/
