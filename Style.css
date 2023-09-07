@@ -166,12 +166,12 @@ aside{
     font-family: "Hanuman";
     letter-spacing: 2px;
     font-weight: 200;
-    top: 520px;
+    top: 530px;
 }
 
 #pro{
     position: absolute;
-    top: 520px;
+    top: 530px;
     left: 350px;
     gap: 50px;
     overflow: hidden;
@@ -208,7 +208,7 @@ aside{
         width: 150px;
     }
 
-    .Numeros{
+    #pro{
         margin-right: 25%;
         margin-top: 50%;
     }
